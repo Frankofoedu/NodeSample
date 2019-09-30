@@ -1,0 +1,27 @@
+{
+  "name": "ecommerce.api",
+  "version": "1.0.0",
+  "description": "ecommerce api",
+  "main": "app.js",
+  "scripts": {
+    "start": "npm run node_modules\\.bin\\nodemon server.js",
+    "sequelize-skeleton": "node_modules\\.bin\\sequelize-cli init:models",
+    "skel2": "node_modules\\.bin\\sequelize-cli init:config"
+  },
+  "author": "Ofoedu Frank Ebuka",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^1.7.0",
+    "body-parser": "^1.19.0",
+    "sequelize": "^5.19.1",
+    "typeorm": "^0.2.19"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2",
+    "faker": "^4.1.0",
+    "lodash.random": "^3.2.0",
+    "lodash.times": "^4.3.2",
+    "sequelize-cli": "^5.5.1"
+  }
+}
